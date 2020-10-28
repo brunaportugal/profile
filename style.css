@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;0,400;0,500;1,400&family=Source+Code+Pro:ital,wght@0,300;0,400;0,500;1,300&family=Source+Serif+Pro:ital,wght@0,300;0,400;0,600;1,300;1,400&display=swap');
+
+body {
+  background-color: #F4F3EE;
+  font-family: 'Roboto Mono', monospace;
+  text-align: center;
+  color: #30362F;
+  font-size: 15px;
+}
+
+h1 {
+  font-family: 'Source Serif Pro', serif;
+  line-height: 1.2;
+  font-size: 30px;
+  color: #C8553D;
+}
+
+h2 {
+  font-family: 'Source Serif Pro', serif;
+  line-height: 1.2;
+  font-size: 21px;
+  color: #C8553D;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+.header {
+  background-color: #FFFFFA;
+  padding: 2px 10px 20px 10px;
+  margin: 10px;
+  box-shadow: 2px 3px 3px grey;
+  border-radius: 5px;
+}
+
+.card {
+  padding: 5px;
+  margin: 10px;
+  box-shadow: 2px 3px 3px grey;
+  border-radius: 5px;
+  background-color: #FFFFFA;
+}
+
+.list-inline {
+  list-style: none;
+  color: #588B8B;
+  padding-left: 0;
+
+}
+
+.list-inline a {
+  color: #588B8B;
+  font-size: 25px;
+  text-decoration: none;
+  line-height: 0px;
+}
+
+.list-inline a:hover {
+  color: #C8553D;
+}
+
+.list-inline li {
+  display: inline;
+}
+
+.avatar {
+  width: 150px;
+  border-radius: 50%;
+}
+
+.btn-green {
+  text-decoration: none;
+  color: #F4F3EE;
+  background-color: #588B8B;
+  padding: 5px 7px;
+  border-radius: 4px;
+}
+
+.btn-green:hover {
+  background-color: #C8553D;
+}
+
+
+
+
+
